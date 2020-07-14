@@ -1,0 +1,278 @@
+*{
+    scroll-behavior: smooth; 
+} 
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 225px;
+}
+
+.gradient-background{
+   /* background: radial-gradient(#919191, #000000);*/
+    
+    background: linear-gradient(to top,#000000, #434343);
+}
+
+.intro-text-header{
+    color:white;
+    font-size: 50px;
+}
+.smalllogo{
+	width:80px;
+	height:80px;
+}
+.intro-text{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    color: lightgrey;
+}
+
+.nav-item{
+    padding-right: 70px;
+}
+
+.navbar-nav{
+    border-bottom: 1px solid white;
+}
+
+.btn{
+    height: 70px;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn2{
+    margin-top: 30px;
+    width: 200px;
+	padding:15px;
+}
+
+.services-header{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.services-text{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 32px;
+    border: 2px dotted white;
+    padding: 10px 0px 10px 0px;
+}
+
+.logo_image{
+    margin-top: 150px;
+}
+
+.footer-text{
+    color:white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#smallitalics{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.nametext{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: darkgray;
+}
+
+.imgresize{
+    height: 25%;
+    width: 25%;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: grey;
+}
+
+#rad1 {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+    margin-right: 50px;
+}
+
+.modal-header{
+    background-color: 	#5cb85c;
+}
+
+.profbody{
+   min-width:520px;        /* Suppose you want minimum width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:520px;            /* As IE6 ignores !important it will set width as 1000px; */
+}
+
+
+
+.profile-pic{
+	width: 200px;
+	height: 200px;
+	margin-left: 7%;
+	margin-top:25px;
+	border:5px solid #021a40;
+	float:left;
+}
+
+.passwd{
+	width: 300px;
+	float:left;
+	margin-left:4%;
+	margin-top: 20px;
+	text-align: center;
+	font-size:12px;
+}
+
+.rpwd{
+	font-size:20px;
+}
+
+.editinfo{
+	margin-left:30%;
+
+	margin-top:-40px;
+}
+
+.profile-info{
+	
+	margin-left:10px;
+	margin-top:50px;
+	
+	
+}
+
+.header{
+	margin-left:12%;
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+  margin-left: 12%;
+  margin-right:12%;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.button2 {
+  font-size: 1em;
+  padding: 15px;
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background-color:#0000FF;
+ 
+}
+
+.button2:hover {
+	background-color:#0066FF;
+	color:#fff;
+}
+.center{
+	width:50%;
+	margin: 0 auto;
+	text-align:center;
+} 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.phone{
+	float:right;
+	margin-right:50%;
+	margin-top:-48px;
+}
+	
+.utop{
+	margin-top:15px;
+}
+
+.p1{
+	color: rgb(255,0,0);
+}
+.images{
+	float:right;
+	margin-top:45px;
+	margin-right:18%;
+}
+
+

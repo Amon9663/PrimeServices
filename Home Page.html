@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <title>Home Page</title>
+    <body>
+	<div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login to Prime Service</h4>
+                </div>
+                <div class="modal-body">
+                    <label for="firstname" id="forminputlabel">Email Address:</label>
+                    <input type="email" class="form-control" id="forminput">
+                    <label for="firstname" id="forminputlabel">Password:</label>
+                    <input type="password" class="form-control" id="forminput">
+                    <div class="row">
+                        <div class="col-md-6">
+						<a href="Profile%20Page.html">
+                            <button type="button"  class="btn btn-success btn-lg btn-block" id="loginmodal">Login</button>
+							</a>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Dismiss</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+	
+	
+	
+	
+        <div class="hero-image container-fluid">
+        <nav class="navbar navbar-expand-md row">
+            <ul class="col-md-6">
+			
+			</ul>
+            <ul class="navbar-nav col-md-6">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home%20Page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Registration%20Page.html">Sign-Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Request%20Service.html">Request Services</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="my-sm-5 row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <h1 class="intro-text-header">Prime Service</h1>
+                <p class ="intro-text">We are a company dedicated to maintenance and repair services for close to 1,200 commercial businesses in New York, New Jersey, and Connecticut.
+                </p>
+                <div class="row">
+                    <a class="col-md-6" href="Registration%20Page.html"><button type="button" class="btn btn-primary btn-lg btn-block">Sign-Up Now</button></a> 
+                    <a class="col-md-6"><button type="button" class="btn btn-success btn-lg btn-block" href="" data-toggle="modal" data-target="#myModal">Login To Existing Account</button></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid gradient-background">
+            <h1 class="services-header col-md-12" id="services">What Can We Do For You?</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="services-header">General Maintenance</h2>
+                    <p class="services-text">Maintainance and repairs of machines, mechanical equipment, and buildings.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="services-header">Fixes and Replacements</h2>
+                    <p class="services-text">Fixing or replacement faulty electrical switches, outlets, and circuit breakers.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="services-header">Routine Checks</h2>
+                    <p class="services-text">Perform preventive maintenance to ensure that machines continue to run smoothly.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="services-header">Cleanings</h2>
+                    <p class="services-text">General cleaning and upkeep of buildings and commercial businesses.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" onclick="location.href='Request%20Service.html';" class="btn2 btn-primary">Request Service Now</button>
+            </div>
+            <div class="text-center">                
+                <img class="logo_image imgresize" src="Prime_logo6.png" alt="The Prime Logo" width="384" height="216">
+            </div>
+			<div class="text-center footer-text">                
+                1-800-1234-5678 | primeservice@services.com | 123 Prime Service Road
+            </div>
+            <div class="text-center footer-text">                
+                ©Prime Service
+            </div>
+        </div>
+    </body>
+</html>

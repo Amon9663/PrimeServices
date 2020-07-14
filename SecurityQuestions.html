@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <title>Security Questions</title>
+    <body>
+	
+		<div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login to Prime Service</h4>
+                </div>
+                <div class="modal-body">
+                    <label for="firstname" id="forminputlabel">Email Address:</label>
+                    <input type="email" class="form-control" id="forminput">
+                    <label for="firstname" id="forminputlabel">Password:</label>
+                    <input type="password" class="form-control" id="forminput">
+                    <div class="row">
+                        <div class="col-md-6">
+						<a href="Profile%20Page.html">
+                            <button type="button"  class="btn btn-success btn-lg btn-block" id="loginmodal">Login</button>
+							</a>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Dismiss</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+	
+        <div class="container-fluid gradient-background">
+        <nav class="navbar navbar-expand-md row">
+            <ul class="col-md-6">
+			<li class="nav-item">
+			<img class="smalllogo" src="Prime_logo6.png" alt="The Prime Logo"> 
+                </li>
+			</ul>
+            <ul class="navbar-nav col-md-6">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home%20Page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Request%20Service.html">Request Services</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"><h1></h1></div>
+                <div class="col-md-10"><h1>Security Questions<p id="smallitalics">Select three security questions below and provide answers to help us to verify you in the case of a forgotten password!</p></h1></div>
+                <div class="col-md-1"></div> 
+            </div>
+            
+            <form action="Profile Page.html">
+            <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Security Question #1:</label>
+                    <select class="form-control security" id="myDropdown">
+                        <option value="1">What is your mother's maiden name?</option>
+                        <option value="2">What was the name of your first pet?</option>
+                        <option value="3">What was your favourite food as a child?</option>
+                        <option value="4">What is your oldest cousin's first and last name?</option>
+                        <option value="5" >In what city or town was your first job?</option>
+                        <option value="6">What was your favourite childhood TV show?</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Answer #1:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Security Question #2:</label>
+                    <select class="form-control security" id="myDropdown1">
+                        <option value="1">What is your mother's maiden name?</option>
+                        <option value="2">What was the name of your first pet?</option>
+                        <option value="3">What was your favourite food as a child?</option>
+                        <option value="4">What is your oldest cousin's first and last name?</option>
+                        <option value="5" >In what city or town was your first job?</option>
+                        <option value="6">What was your favourite childhood TV show?</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Answer #2:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Security Question #3:</label>
+                    <select class="form-control security" id="myDropdown2">
+                        <option value="1">What is your mother's maiden name?</option>
+                        <option value="2">What was the name of your first pet?</option>
+                        <option value="3">What was your favourite food as a child?</option>
+                        <option value="4">What is your oldest cousin's first and last name?</option>
+                        <option value="5" >In what city or town was your first job?</option>
+                        <option value="6">What was your favourite childhood TV show?</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                    <label for="ques1">Answer #3:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group col-md-2">
+                </div>     
+                </div>
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2"><a class="col-md-6" href=""><button type="submit" class="btn btn-primary btn-lg btn-block">Sign-Up</button></a></div>
+                    <div class="form-group col-md-5"></div>
+                </div>
+            </form>
+ 
+        </div>
+        <div class="gradient-background">
+            <div class="text-center">                
+                <img class="logo_image imgresize" src="Prime_logo6.png" alt="The Prime Logo">
+            </div>
+            <div class="text-center footer-text">                
+                1-800-1234-5678 | primeservice@services.com | 123 Prime Service Road
+            </div>
+            <div class="text-center footer-text">                
+                ©Prime Service
+            </div>
+        </div>
+        <script>
+        document.getElementById("myDropdown").selectedIndex = -1;
+        document.getElementById("myDropdown1").selectedIndex = -1;    
+        document.getElementById("myDropdown2").selectedIndex = -1;    
+        
+        $(function () 
+        {
+            $('.security').change(function () 
+            {
+                $('.security option').show(0);
+                $('.security option:selected').each(function ()
+                {
+                    oIndex = $(this).index();
+                    if (oIndex > 0) {
+                    $('.security').each(function () {
+                    $(this).children('option').eq(oIndex).not(':selected').hide(0);
+                });
+            }
+        });
+        });
+        $('.security').change();
+        });
+        </script>
+    </body>
+</html>

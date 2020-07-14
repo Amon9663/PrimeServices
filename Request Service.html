@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <title>Request Services</title>
+    <body>
+	
+		<div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login to Prime Service</h4>
+                </div>
+                <div class="modal-body">
+                    <label for="firstname" id="forminputlabel">Email Address:</label>
+                    <input type="email" class="form-control" id="forminput">
+                    <label for="firstname" id="forminputlabel">Password:</label>
+                    <input type="password" class="form-control" id="forminput">
+                    <div class="row">
+                        <div class="col-md-6">
+						<a href="Profile%20Page.html">
+                            <button type="button"  class="btn btn-success btn-lg btn-block" id="loginmodal">Login</button>
+							</a>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Dismiss</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+	
+	
+	
+        <div class="container-fluid gradient-background">
+        <nav class="navbar navbar-expand-md row">
+            <ul class="col-md-6">
+			<li class="nav-item">
+			<img class="smalllogo" src="Prime_logo6.png" alt="The Prime Logo"> 
+                </li>
+			
+			
+			</ul>
+            <ul class="navbar-nav col-md-6">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home%20Page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Request%20Service.html">Request Services</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+		  <div class="container-fluid">
+		  <div class="row">
+                <div class="col-md-1"><h1></h1></div>
+                <div class="col-md-10"><h1>Request Service<p id="smallitalics">Fill out the form in order to make a service request.</p></h1></div>
+                <div class="col-md-1"></div> 
+            </div>
+		  <div class="back">
+		  
+		
+<form action="Profile%20Page.html">
+					<div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+		  
+					<p>What is the nature of your request</p>
+					
+					</div>
+					</div>
+					
+					
+					<div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                       
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio" checked>Business
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">Personal
+                    </label>
+                    </div>
+                </div>	
+					<div class="row">
+				 <div class="col-md-1"></div>
+				   <div class="form-group col">
+                    <label for="Security Question">What Service is required:</label>
+                   <select id="Service" name="Service" class="form-control">
+				     <option value="0">Appliance Repair</option> 
+					<option value="1">Air Conditioning Repair</option> 
+					<option value="2">Plumbing</option>
+					<option value="3">Electrical Repair</option>
+					<option value="4">Leaking Roof</option>
+					<option value="5">Heating Duct Repair</option>
+					<option value="6">Broken Windows</option>
+					<option value="7">Cleaning</option>
+					<option value="8">Other</option>
+				   </select>
+				
+				</div>
+				 <div class="col-md-8"></div>
+				</div>
+				
+				<div class="row">
+				 <div class="col-md-1"></div>
+				   <div class="form-group col">
+                    <label for="Security Question">Telephone Number:</label>
+                   <select id="Service" name="Service" class="form-control">
+				     <option value="0">246-344-3443</option> 
+					<option value="1">432-393-0292</option> 
+					<option value="2">435-098-1935</option>
+					
+				   </select>
+				
+				</div>
+				<div class="col-md-8"></div>
+				</div>
+				
+				<div class="row">
+				 <div class="col-md-1"></div>
+				   <div class="form-group col">
+                    <label for="Security Question">Email Address:</label>
+                   <select id="Service" name="Service" class="form-control">
+				     <option value="0">mscott@hotmail.com</option> 
+					<option value="1">fre@gmail.com</option> 
+					<option value="2"></option>
+					
+				   </select>
+				
+				</div>
+				<div class="col-md-8"></div>
+				</div>
+		  
+				<div class="row">
+				 <div class="col-md-1"></div>
+				   <div class="form-group col">
+                    <label for="Security Question">Address:</label>
+                   <select id="Service" name="Service" class="form-control">
+				     <option value="0">5th Ave. Carnival Street</option> 
+					<option value="1">1998  Mount Tabor</option> 
+					<option value="2">4706  Olive Street</option>
+					
+				   </select>
+				
+				</div>
+				<div class="col-md-8"></div>
+				</div>
+				
+				<div class="row">
+                <div class="form-group col-md-1">
+                </div>
+                <div class="form-group col">
+                      <label for="comment">Special Comments:</label>
+                    <textarea class="form-control"rows="3" id ="comment">
+					</textarea>
+                </div>
+                <div class="form-group col-md-6">
+                </div>
+                </div>
+				
+					 <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2"><a class="col-md-6" href ="Home%20Page.html"><button type="submit" onclick="location.href='Home%20Page.html';" class="btn btn-primary btn-lg btn-block">Request Now</button></a></div>
+                    <div class="form-group col-md-5"></div>
+                </div>
+</form action="Home%20Page.html">		  
+		  </div>
+		  </div>
+		  
+		       <div class="gradient-background">
+            <div class="text-center">                
+                <img class="logo_image imgresize" src="Prime_logo6.png" alt="The Prime Logo">
+            </div>
+            <div class="text-center footer-text">                
+                1-800-1234-5678 | primeservice@services.com | 123 Prime Service Road
+            </div>
+            <div class="text-center footer-text">                
+                ©Prime Service
+            </div>
+        </div>
+		  
+		  </body>
+		  </html>
